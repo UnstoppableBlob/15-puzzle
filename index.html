@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <metacharset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2d Puzzle Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+   <h1>15 Puzzle Game</h1>
+  <div>Moves: <span id='counter'>0</span></div>
+  <div id="grid"></div>
+  <div id="win-popup">
+    <div>🎉 Congratulations! 🎉</div>
+    <div id="win-message">You solved it!</div>
+    <button onclick="hideWin()">Play Again</button>
+  </div>
+  <div id="buttons">
+    <button onclick="scramble()">Scramble</button>
+    <button onclick="solve()">Solve</button>
+  </div>
+</body>
+</html>
+
