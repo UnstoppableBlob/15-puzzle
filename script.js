@@ -173,7 +173,7 @@ function createSnow() {
         snowflake.className = 'snowflake';
         snowflake.innerHTML = snowflakes[Math.floor(Math.random() * snowflakes.length)];
         snowflake.style.left = Math.random() * 100 + 'vw';
-        snowflake.style.top = '-100px';
+        snowflake.style.top = '-30px';
         snowflake.style.fontSize = (Math.random() * 0.8 + 0.8) + 'em';
         snowflake.style.animationDuration = (Math.random() * 5 + 8) + 's';
         snowflake.style.animationDelay = Math.random() * 2 + 's';
